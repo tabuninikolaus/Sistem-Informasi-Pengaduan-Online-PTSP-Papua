@@ -1,0 +1,105 @@
+/* Mengatur background halaman */
+body {
+  background-color: #f0f8ff;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style untuk heading */
+h1 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #0056b3;
+  margin-top: 30px;
+}
+
+/* Container form */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling form */
+form {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk setiap elemen form */
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Tombol Kirim */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsif untuk ukuran layar lebih kecil */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+  }
+  form {
+    padding: 15px;
+  }
+}
+
+/* Hover efek untuk input dan textarea */
+input[type="text"]:hover,
+input[type="email"]:hover,
+select:hover,
+input[type="file"]:hover,
+textarea:hover {
+  border-color: #007bff;
+  background-color: #e9f5ff;
+}
+
+/* Styling untuk footer (Jika ada) */
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 30px;
+}
